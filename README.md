@@ -1,12 +1,27 @@
-# README
-*.x files are source files in the X language
-*.hex are the compiled files for the machine
+# Hex computer
 
-* xhexs.x - source code for 8 bit compiler
-* xhexsa.x - source code for 8 bit assembler
-* xhexb.x - source ccode for boot strapping compiler
-* hexsimb - boot strapping simulator (32 bit)
-* hexsims - simulator (8 bit)
+To make the process of understanding how the Hex computer simulators and
+compilers work I've written some build scripts to make the file names more
+readable. There are also scripts with functions that will run programs on the
+simulators, they are to ease development of programs and help users understand
+how the simulators work.
 
-* The simulator look for a `a.bin` file to run
-* xhexb.bin is a 32 bit compiler in hex
+## Dependencies
+[SCons](www.scons.org)
+    
+Debian/Ubuntu (and derivatives):
+    $ sudo apt-get install scons
+
+Arch Linux:
+    $ sudo pacman -S scons
+
+Mac OS X:
+    $ sudo brew install scons
+
+## How to build
+
+Run the command:
+
+    scons
+
+then have a look in the `build` folder produced.
