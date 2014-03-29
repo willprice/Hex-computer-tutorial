@@ -10,12 +10,15 @@ how the simulators work.
 [SCons](www.scons.org)
     
 Debian/Ubuntu (and derivatives):
+
     $ sudo apt-get install scons
 
 Arch Linux:
+
     $ sudo pacman -S scons
 
 Mac OS X:
+
     $ sudo brew install scons
 
 ## How to build
