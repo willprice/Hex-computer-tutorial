@@ -6,6 +6,12 @@ readable. There are also scripts with functions that will run programs on the
 simulators, they are to ease development of programs and help users understand
 how the simulators work.
 
+## How to get this file
+
+Pull in everything using
+
+    $ git clone --recursive <repo-url>
+
 ## Dependencies
 [SCons](www.scons.org)
     
